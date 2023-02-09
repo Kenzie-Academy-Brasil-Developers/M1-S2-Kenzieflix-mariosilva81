@@ -4,18 +4,13 @@ body {
     padding: 0;
     margin: 0;
     background-color: black;
-}
-
-main {
     font-family: 'IBM Plex Sans', sans-serif;
-    display: flex;
-    height: 100%;
-    width: 100%;
-    display: inline-block;
 }
 
 header {
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .logo {
@@ -24,17 +19,24 @@ header {
     margin: auto;
 }
 
-.containerProfile {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 h1 {
     color: white;
     font-size: 30px;
     text-align: center;
     padding-top: 30px;
+}
+
+.containerMain {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+}
+
+.containerProfile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 ul {
@@ -46,7 +48,6 @@ ul {
 }
 
 li {
-    width: 160px;
     color: rgb(208, 203, 203);
     list-style: none;
     margin: 10px;
@@ -60,8 +61,8 @@ li:hover {
 .imgList {
     border-radius: 10px;
     width: 160px;  
-    box-sizing: border-box;
-    vertical-align: super; 
+    box-sizing: border-box; 
+    margin-bottom: 10px;
 }
 
 .imgList:hover {
