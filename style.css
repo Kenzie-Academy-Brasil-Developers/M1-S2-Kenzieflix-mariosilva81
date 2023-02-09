@@ -16,7 +16,6 @@ header {
 .logo {
     padding-top: 55px;
     padding-bottom: 55px;
-    margin: auto;
 }
 
 h1 {
@@ -51,27 +50,22 @@ li {
     color: rgb(208, 203, 203);
     list-style: none;
     margin: 10px;
-    text-align: center; 
+    text-align: center;
 }
 
 li:hover {
     color: white;
 }
 
-.imgList {
+img {
     border-radius: 10px;
     width: 160px;  
     box-sizing: border-box; 
     margin-bottom: 10px;
 }
 
-.imgList:hover {
+img:hover {
     border: 1.5px solid white;   
-}
-
-.containerButton {
-    display: flex;
-    margin-top: 50px;
 }
 
 button {
