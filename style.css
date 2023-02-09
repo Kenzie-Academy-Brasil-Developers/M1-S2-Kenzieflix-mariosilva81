@@ -53,6 +53,10 @@ body {
     text-align: center;
 }
 
+.containerProfileImages li:hover {
+    color: white;
+}
+
 .containerProfileImages li img {
     border-radius: 10px;
     width: 160px;  
