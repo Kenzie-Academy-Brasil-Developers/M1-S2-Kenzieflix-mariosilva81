@@ -55,7 +55,8 @@ body {
 
 .containerProfileImages li img {
     border-radius: 10px;
-    width: 160px;   
+    width: 160px;  
+    box-sizing: border-box; 
 }
 
 .containerProfileImages li img:hover {
